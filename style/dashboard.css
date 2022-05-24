@@ -1,0 +1,59 @@
+#navbar{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;background-color: black;
+    color: white;
+
+}
+
+button{
+    text-decoration: none;
+    background-color: #000000;
+    padding: 8px 25px;
+    margin: 5px 118px ;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+#div1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    margin: auto;
+    gap: 50px;
+}
+
+.box{
+    border: 1px solid;
+    padding: 8px;
+}
+
+.img{
+    display: block;
+ margin: auto;
+}
+
+h4{
+    margin-left: 45px;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 8px 25px;
+}
